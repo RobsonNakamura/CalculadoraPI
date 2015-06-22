@@ -636,7 +636,7 @@ public class JFrameCalculadora extends javax.swing.JFrame {
     }
 
     public void dividir(double a, double b) {
-        this.resultado = a / b;
+        this.resultado = a - b;
     }
 
     public void subtrair(double a, double b) {
