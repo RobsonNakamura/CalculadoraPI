@@ -1,1 +1,9 @@
+
 language: java
+deploy:
+    provider: heroku
+    api_key:
+        secure: 8c380a20-3b85-4bb0-8d05-f1fd9c7650d9
+    app: calculadorapi
+    on:
+        repo: RobsonNakamura/CalculadoraPI
